@@ -10,4 +10,3 @@ public interface LoteRepository <T, ID>{
     T update(T lote);
     void delete(T lote);
     void deleteAll();
-}
